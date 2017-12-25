@@ -1,0 +1,33 @@
+<div class="startTeam">
+    <div class="head">
+        <h2>八维考试系统</h2>
+        <a href="#">>>学生参加考试系统</a>
+    </div>
+    <div class="sec">
+        <table class="table table-striped table-bordered">
+            <thead>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td>试卷名称</td>
+                    <td>是否开放</td>
+                    <td>开始时间</td>
+                    <td>结束时间</td>
+                    <td>考试操作</td>
+                </tr>
+            </thead>
+            <tbody style="text-align:center">
+                <tr ng-repeat="val in list">
+                    <td><input type="checkbox"></td>
+                    <td class="nameB">{{val.name}}{{val.id}}<input type="text" class="inp" ng-if="inp" ng-model="val.name"></td>
+                    <td>{{val.bool | bool}}<input type="text" class="inp" ng-if="inp" ng-model="val.bool"></td>
+                    <td><span class="time">{{val.startTime | date:'yyyy-MM-dd hh:mm:ss'}}</span><input type="text" class="inp" ng-if="inp" ng-model="val.startTime"></td>
+                    <td><span class="time">{{val.endTime | date:'yyyy-MM-dd hh:mm:ss'}}</span><input type="text" class="inp" ng-if="inp" ng-model="val.endTime"></td>
+                    <td>
+                        <button class="btn btn-sm btn-info active redact" ng-click="redact()">编辑</button>
+                        <button class="btn btn-sm btn-info active omit" ng-click="omit()">删除</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

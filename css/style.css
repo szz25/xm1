@@ -1,0 +1,295 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.top {
+    width: 100%;
+    height: 0.45rem;
+    background: #018EB4;
+}
+
+.bottom {
+    position: absolute;
+    top: 0.45rem;
+    bottom: 0;
+    width: 100%;
+}
+
+.left {
+    width: 2rem;
+    height: 100%;
+    background: #fff;
+    float: left;
+}
+
+.right {
+    position: absolute;
+    left: 2rem;
+    right: 0;
+    height: 100%;
+    word-break: break-word;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.img {
+    display: inline-block;
+    margin-left: 0.2rem;
+    margin-top: 0.12rem;
+    width: 0.23rem;
+    height: 0.17rem;
+    background: url('../img/icon_03.png') 0px 0px no-repeat;
+    background-size: 100% 100%;
+}
+
+.con {
+    font-size: 0.19rem;
+    color: #fff;
+}
+
+.name {
+    font-size: 0.13rem;
+}
+
+.user {
+    position: absolute;
+    left: 0.72rem;
+    top: 0;
+    width: 0.6rem;
+    text-align: center;
+}
+
+.icon-usered {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: inline-block;
+    width: 0.5rem;
+    height: 100%;
+    background: #3AA9CE;
+    font-size: 0.35rem;
+}
+
+.topLeft {
+    float: left;
+}
+
+.topRight {
+    width: 1.5rem;
+    height: 100%;
+    float: right;
+}
+
+.hy {
+    font-size: 0.13rem;
+}
+
+
+/*修改bootstrap的样式  */
+
+
+/* 修改accordion的样式 */
+
+.panel-default {
+    position: relative;
+    border-color: #fff;
+}
+
+.panel-default ul li {
+    width: 100%;
+    height: 0.3rem;
+    line-height: 0.3rem;
+    text-align: center;
+}
+
+.gengDuo::before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: url('../img/gengduo_heightlight.png');
+    z-index: 9999;
+    width: 0.4rem;
+    height: 100%;
+}
+
+.panel-heading {
+    padding: 0.11rem 0;
+    padding-left: 0.56rem;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.panel-group .panel+.panel {
+    margin-top: 0.05rem;
+}
+
+.panel-group .panel,
+.panel {
+    border-radius: 0;
+}
+
+.panel-body {
+    padding: 0;
+}
+
+ul {
+    margin-bottom: 0;
+}
+
+ul li {
+    cursor: pointer;
+}
+
+.panel-default>.panel-heading {
+    background: #fff;
+}
+
+.act {
+    color: #018EB4;
+}
+
+
+/*修改dropdown样式  */
+
+.btn {
+    padding: 0;
+}
+
+.btn-group {
+    width: 100%;
+    height: 100%;
+}
+
+.btn-primary {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    background: #018EB4;
+}
+
+.caret {
+    position: absolute;
+    right: 0.06rem;
+    top: 50%;
+}
+
+.dropdown-menu {
+    margin: 0;
+    border-radius: 0;
+    min-width: 150px;
+}
+
+
+/*初始路由样式*/
+
+.welcome {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 2rem;
+    font-size: 1rem;
+    color: #018EB4;
+}
+
+
+/*startTeam路由样式*/
+
+.startTeam {
+    width: 100%;
+    height: 100%;
+    padding: 0 0.18rem;
+}
+
+.head {
+    width: 100%;
+    height: 0.54rem;
+    border-bottom: 0.01rem dashed #ccc;
+    padding-left: 0.14rem;
+    line-height: 0.54rem;
+}
+
+.head h2 {
+    font-size: 0.19rem;
+    float: left;
+    margin: 0;
+    height: 100%;
+    line-height: 0.54rem;
+    color: #018EB4;
+}
+
+.head a {
+    margin-left: 0.07rem;
+    font-size: 0.13rem;
+    color: #ccc;
+}
+
+.sec {
+    width: 100%;
+    height: 86%;
+    margin-top: 0.3rem;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+table {
+    width: 100%;
+}
+
+thead td {
+    padding: 0.05rem 0;
+    padding-left: 0.1rem;
+}
+
+.nameB {
+    color: #018EB4;
+}
+
+tbody td {
+    padding: 0.05rem 0;
+    position: relative;
+}
+
+.time {
+    padding: 0.03rem;
+    background: #FF9E00;
+    color: #fff;
+}
+
+.btn-sm {
+    width: 1rem;
+    height: 0.25rem;
+    background: #018EB4;
+    color: #fff;
+    border-radius: 0;
+}
+
+.inp {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/*endTeam路由样式*/
+
+
+/*studyTool路由样式*/
+
+
+/*uploading路由样式*/
+
+
+/*addPhotoAlbum路由样式*/
+
+
+/*list路由样式*/
+
+
+/*addPicture路由样式*/
